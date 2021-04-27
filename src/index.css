@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+.headersection{
+  border-bottom: 1px solid #e1eaea;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 2px rgb(0 0 0 / 13%);
+}
+.Section{
+  width: 68%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+  width: 163px;
+  cursor: pointer;
+  margin-top: 35px;
+  border-radius: 0px !important;
+  box-shadow: -3px 3px 15px rgb(0 0 0 / 13%)
+ }
+.cardsection{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  margin-left: 10px;
+}
+label{
+  font-weight: 500;
+}
+/* ---------- manage products--------- */
+.form{
+  width: 68%;
+  margin: auto;
+  /* border: 1px solid; */
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-row-gap: 15px;
+  grid-column-gap: 30px;
+}
+/* --------------Table------------------ */
+table {
+  border-collapse: collapse;
+  width: 68%;
+  margin: auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;
+}
+
+#remove{
+  color:red !important ;
+  cursor:pointer !important;
+}
